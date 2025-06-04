@@ -57,6 +57,47 @@ p a:hover {
     text-decoration: none;
 }
 
+/*color palette*/
+
+.color-palette {
+  max-width: 800px;
+
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.color-item {
+  display: flex;
+  flex-direction: column;
+ margin-left: 20px;
+
+}
+
+.color-square {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.color-hex {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "eigerdals";
+}
+
+
+.color-1 { background-color: #FC9073; } 
+.color-2 { background-color: #6AABFB; } 
+.color-3 { background-color: #1D45C1; } 
+.color-4 { background-color: #FFFF8A; } 
+.color-5 { background-color: #E1965C; } 
+.color-6 { background-color: #FA513A; } 
+
+
 /*buttons*/
 
 button {
@@ -246,5 +287,7 @@ tbody tr:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
 
 
