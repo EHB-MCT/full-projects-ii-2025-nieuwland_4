@@ -15,9 +15,6 @@
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
     <p>Paragraph text. <strong>Bold</strong>, <em>Italic</em>, <a href="#">Link</a></p>
-    <blockquote>Blockquote text.</blockquote>
-    <code>Inline code</code>
-    <pre><code>Preformatted block</code></pre>
   </section>
 
   <section>
@@ -25,7 +22,6 @@
     <button class="button1">Primary Active</button>
     <button class="primary hover">Primary Hover</button>
     <button class="primary inactive">Primary Inactive</button>
-    <button class="secondary active">Secondary Active</button>
     <button class="secondary hover">Secondary Hover</button>
     <button class="secondary inactive">Secondary Inactive</button>
   </section>
@@ -33,42 +29,31 @@
   <section>
     <h1>Forms</h1>
     <form>
-      <label for="text">Text Input</label>
+      <label for="text">Onderwerp</label>
       <input type="text" id="text" name="text"><br>
 
       <label for="email">Email</label>
       <input type="email" id="email" name="email"><br>
 
-      <label for="select">Select</label>
+      <label for="select">Selecteer</label>
       <select id="select" name="select">
-        <option>Option 1</option>
-        <option>Option 2</option>
+        <option>Optie 1</option>
+        <option>Optie 2</option>
       </select><br>
 
       <label><input type="checkbox"> Checkbox</label><br>
-      <label><input type="radio" name="radio"> Radio</label><br>
 
-      <label for="textarea">Textarea</label><br>
+      <label for="textarea">Text</label><br>
       <textarea id="textarea"></textarea><br>
 
-      <button type="submit">Submit</button>
+      <button type="submit">Indienen</button>
     </form>
   </section>
 
   <section>
     <h1>Lists</h1>
     <ul>
-      <li>Unordered item</li>
-      <li>Unordered item</li>
-    </ul>
-    <ol>
-      <li>Ordered item</li>
-      <li>Ordered item</li>
-    </ol>
-    <dl>
-      <dt>Term</dt>
-      <dd>Definition</dd>
-    </dl>
+      <li>•</li>
   </section>
 
   <section>
@@ -84,14 +69,19 @@
     </table>
   </section>
 
-  <section>
-    <h1>Grid</h1>
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-      <div>Grid Item 1</div>
-      <div>Grid Item 2</div>
-      <div>Grid Item 3</div>
-    </div>
-  </section>
+<section class="grid-system">
+  <h1>Grid</h1>
+  <div class="grid-container">
+    <div class="column"><span>1</span></div>
+    <div class="column"><span>2</span></div>
+    <div class="column"><span>3</span></div>
+    <div class="column"><span>4</span></div>
+    <div class="column"><span>5</span></div>
+    <div class="column"><span>6</span></div>
+    <div class="column"><span>7</span></div>
+    <div class="column"><span>8</span></div>
+  </div>
+</section>
 
 </body>
 </html>
