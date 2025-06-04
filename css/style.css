@@ -1,1 +1,29 @@
 
+
+h1 {
+    font-family: "gambado-sans-forte", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 70px;
+}
+
+h2 {
+font-family: "eigerdals", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 50px;
+}
+
+h3 {
+    font-family: "eigerdals", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 35px;
+}
+
+p {
+    font-family: "new-zen", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 23px;
+}
