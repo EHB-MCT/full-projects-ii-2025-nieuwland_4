@@ -6,6 +6,10 @@
    <title>Styleguide</title>
    <link href="./css/reset2.css" rel="stylesheet" type="text/css" />
    <link href="./css/style2.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="https://use.typekit.net/fbc2vvd.css">
+   <style>
+  @import url("https://use.typekit.net/odt5qzk.css");
+</style>
 </head>
 
 <body>
@@ -16,6 +20,28 @@
       <h2>Heading 2</h2>
       <h3>Heading 3</h3>
       <p>Paragraph text. <strong>Bold</strong>, <em>Italic</em>, <a href="#">Link</a></p>
+   </section>
+   
+    <section class="color-palette">
+      <h1>Color Palette</h1>
+      <div class="color-grid">
+         <div class="color-item">
+            <div class="color-square color-1"></div>
+            <div class="color-hex">#F98624</div>
+         </div>
+         <div class="color-item">
+            <div class="color-square color-2"></div>
+            <div class="color-hex">#A0A042</div>
+         </div>
+         <div class="color-item">
+            <div class="color-square color-3"></div>
+            <div class="color-hex">#8FCBE4</div>
+         </div>
+         <div class="color-item">
+            <div class="color-square color-4"></div>
+            <div class="color-hex">#053147</div>
+         </div>
+      </div>
    </section>
 
    <section>
@@ -31,10 +57,10 @@
       <h1>Forms</h1>
       <form>
          <label for="text">Onderwerp</label>
-         <input type="text" id="text" name="text"><br>
+         <input type="text" id="text" name="text" placeholder="subject van jou bericht..."><br>
 
-         <label for="email">Email</label>
-         <input type="email" id="email" name="email"><br>
+         <label for="email">Email </label>
+         <input type="email" id="email" name="email" placeholder="exemple@gmail.com" ><br>
 
          <label for="select">Selecteer</label>
          <select id="select" name="select">
@@ -45,7 +71,7 @@
          <label><input type="checkbox"> Checkbox</label><br>
 
          <label for="textarea">Text</label><br>
-         <textarea id="textarea"></textarea><br>
+         <textarea id="textarea" placeholder="schrijf jou text hier.."></textarea><br>
 
          <button type="submit">Indienen</button>
       </form>
