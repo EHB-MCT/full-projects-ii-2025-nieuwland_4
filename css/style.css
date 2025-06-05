@@ -189,7 +189,7 @@ form textarea {
    width: 100%;
    padding: 10px;
    margin-bottom: 15px;
-   border: 2px solid #E1965C;
+   border: 2px solid #F06956;
    border-radius: 5px;
    font-family: "new-zen", sans-serif;
 }
@@ -197,12 +197,12 @@ form textarea {
 form input:focus,
 form select:focus,
 form textarea:focus {
-   border-color: #6AABFB;
+   border-color: #92AEC6;
    outline: none;
 }
 
 form button {
-   background: #FC9073;
+   background: #F06956;
    color: white;
    border: none;
    padding: 12px 20px;
@@ -215,7 +215,7 @@ form button {
 
 form button:hover {
    background-color: #ffcdc0;
-   color: #fa724c;
+   color: #F06956;
 }
 
 input[type="checkbox"] {
@@ -258,32 +258,24 @@ tbody tr:hover {
 
 .grid-system {
    max-width: 1200px;
-   /* Container width */
    margin-left: 100px;
-   /* Center the container */
    margin-right: 100px;
    padding: 40px 20px;
-   /* Vertical and horizontal margins */
 }
 
 .grid-container {
    display: grid;
    grid-template-columns: repeat(8, 1fr);
-   /* 8 equal columns */
    gap: 20px;
-   /* Gutters between columns */
    margin: 30px 0;
-   /* Vertical margins */
+  
 }
 
 .column {
    background-color: #f5f9ff;
-   /* Light blue background */
    border: 1px solid #6AABFB;
-   /* Blue border */
    border-radius: 4px;
    padding: 500px 0;
-   /* Column height */
    text-align: center;
    font-family: "new-zen", sans-serif;
    color: #1D45C1;

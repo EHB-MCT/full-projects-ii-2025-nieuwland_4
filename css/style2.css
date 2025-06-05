@@ -265,7 +265,6 @@ tbody tr:hover {
 
 .grid-system {
   max-width: 1200px; 
-  
   margin-left:100px;
   margin-right: 100px;
   padding: 40px 20px; 
@@ -273,16 +272,16 @@ tbody tr:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(8, 1fr); /* 8 equal columns */
-  gap: 20px; /* Gutters between columns */
-  margin: 30px 0; /* Vertical margins */
+  grid-template-columns: repeat(8, 1fr); 
+  gap: 20px; 
+  margin: 30px 0; 
 }
 
 .column {
-  background-color: #f5f9ff; /* Light blue background */
-  border: 1px solid #6AABFB; /* Blue border */
+  background-color: #f5f9ff; 
+  border: 1px solid #6AABFB; 
   border-radius: 4px;
-  padding: 500px 0; /* Column height */
+  padding: 500px 0; 
   text-align: center;
   font-family: "new-zen", sans-serif;
   color: #1D45C1;
