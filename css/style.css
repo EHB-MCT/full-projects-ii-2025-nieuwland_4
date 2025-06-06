@@ -158,6 +158,11 @@ button {
 }
 
 /*form*/
+
+.formbg {
+   background-color: #FBBD4C;
+}
+
 form {
    max-width: 500px;
    margin-left: 100px;
@@ -167,13 +172,14 @@ form {
 form h1 {
    color: #1D45C1;
    text-align: center;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
 }
 
 form label {
    display: block;
    margin-bottom: 5px;
    font-weight: 500;
+   border-radius: 50%;
 }
 
 form input,
@@ -182,8 +188,8 @@ form textarea {
    width: 100%;
    padding: 10px;
    margin-bottom: 15px;
-   border: 2px solid #F06956;
-   border-radius: 5px;
+   border: 2px solid white;
+   border-radius: 20px;
    font-family: "new-zen", sans-serif;
 }
 
@@ -195,11 +201,11 @@ form textarea:focus {
 }
 
 form button {
-   background: #F06956;
+   background: none;
    color: white;
-   border: none;
+   border: 2px solid white;
    padding: 12px 20px;
-   border-radius: 5px;
+   border-radius: 20px;
    font-family: "new-zen", sans-serif;
    font-size: 16px;
    cursor: pointer;
@@ -207,8 +213,8 @@ form button {
 }
 
 form button:hover {
-   background-color: #ffcdc0;
-   color: #F06956;
+   background-color: white;
+   color: #FBBD4C;
 }
 
 input[type="checkbox"] {
