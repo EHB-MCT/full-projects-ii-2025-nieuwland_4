@@ -1,3 +1,5 @@
+/* SLIDESHOW */
+
 .slideshow {
    position: relative;
    width: 100%;
@@ -5,7 +7,6 @@
    aspect-ratio: 4 / 3;
    overflow: hidden;
    height: auto;
-   /* height adapts with aspect ratio */
 }
 
 .slideshow img {
@@ -48,3 +49,42 @@
       font-size: 0.9rem;
    }
 }
+
+/* QUICKLINKS*/
+
+.quicklink,
+a {
+   text-align: center;
+   display: block;
+   text-decoration: none;
+   color: white;
+   margin-bottom: 1.5rem;
+   padding: 1.5rem;
+   border-radius: 1.5rem;
+}
+
+.quicklink1 {
+   background-color: var(--pink);
+}
+
+.quicklink2 {
+   background-color: var(--green);
+}
+
+.quicklink3 {
+   background-color: var(--yellow);
+}
+
+.quicklink4 {
+   background-color: var(--blue);
+}
+
+/*WRAPPER*/
+
+.wrapper {
+   background-image: url(../img/header_image.png);
+   background-size: cover;
+   padding: 3rem;
+}
+
+/*OTHER*/

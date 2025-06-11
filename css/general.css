@@ -16,6 +16,13 @@ body {
 
 h1 {
    font-family: rammetto one;
-   font-size: 2.5rem;
+   font-size: 2.2rem;
    text-align: left;
+   color: var(--titleColor);
+}
+
+h2 {
+   font-family: rammetto one;
+   font-size: 1.5rem;
+   color: var(--titleColor);
 }
