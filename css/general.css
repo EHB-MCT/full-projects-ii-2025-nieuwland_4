@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Orienta&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+:root {
+   --titleColor: #222563;
+   --yellow: #FBBD4C;
+   --pink: #FC679A;
+   --green: #48D06F;
+   --blue: #6AABFB;
+}
+
+body {
+   font-family: Orienta;
+
+}
+
+h1 {
+   font-family: rammetto one;
+   font-size: 2.5rem;
+   text-align: left;
+}

@@ -1,3 +1,5 @@
+//////SLIDESHOW///////
+
 const slides = document.querySelectorAll('.slideshow img');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
@@ -19,3 +21,7 @@ nextBtn.addEventListener('click', () => {
   currentIndex = (currentIndex + 1) % slides.length;
   showSlide(currentIndex);
 });
+
+///////HAMBURGER MENU////////
+
+

@@ -1,9 +1,11 @@
-/*SLIDESHOW*/
 .slideshow {
    position: relative;
-   width: 400px;
-   height: 300px;
+   width: 100%;
+   max-width: 600px;
+   aspect-ratio: 4 / 3;
    overflow: hidden;
+   height: auto;
+   /* height adapts with aspect ratio */
 }
 
 .slideshow img {
@@ -26,9 +28,10 @@
    transform: translateY(-50%);
    background: rgba(255, 255, 255, 0.7);
    border: none;
-   padding: 0.5rem 1rem;
+   padding: 0.75rem 1.25rem;
    cursor: pointer;
    font-weight: bold;
+   font-size: 1rem;
 }
 
 #prevBtn {
@@ -37,4 +40,11 @@
 
 #nextBtn {
    right: 10px;
+}
+
+@media (max-width: 400px) {
+   .slideshow button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+   }
 }
