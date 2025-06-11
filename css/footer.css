@@ -1,3 +1,89 @@
+/****************/
+/***  FOOTER  ***/
+/****************/
+
+.line {
+   border: none;
+   height: 2px;
+   background-color: white;
+   margin: 0 2rem;
+}
+
+
 footer {
    background-color: var(--yellow);
+}
+
+/***  CONTACT  ***/
+
+.footerContact {
+   text-align: center;
+   padding: 2rem;
+}
+
+.footerContact address {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.5rem;
+   color: var(--titleColor);
+}
+
+.contactLine {
+   display: flex;
+   align-items: center;
+   gap: 0.75rem;
+}
+
+/***  NAVIGATIE  ***/
+
+.footerNav {
+   display: flex;
+   justify-content: center;
+   padding: 2rem 0rem;
+}
+
+.footerNav ul {
+   padding: 0;
+   text-align: center;
+}
+
+.footerNav li a {
+   text-decoration: none;
+   color: var(--titleColor);
+}
+
+.footerNav li {
+   padding-bottom: 1rem;
+}
+
+/***  SOCIAL  ***/
+
+.footerSocial {
+   display: flex;
+   justify-content: center;
+   padding: 1rem;
+}
+
+.footerSocial ul {
+   list-style: none;
+   display: flex;
+   gap: 1rem;
+   /* spacing between icons */
+   padding: 0;
+   margin: 0;
+}
+
+.footerSocial li a {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+}
+
+/***  LOGO  ***/
+
+.footerLogo img {
+   width: 80%;
 }

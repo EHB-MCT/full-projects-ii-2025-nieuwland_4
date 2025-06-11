@@ -1,3 +1,8 @@
+@import "reset.css";
+@import "general.css";
+@import "nav.css";
+@import "footer.css";
+
 /****************/
 /**** BANNER ****/
 /****************/
@@ -107,6 +112,7 @@
    transform: translateY(-50%);
    background: rgba(255, 255, 255, 0.7);
    border: none;
+   border-radius: 3rem;
    padding: 0.75rem 1.25rem;
    cursor: pointer;
    font-weight: bold;
@@ -132,3 +138,72 @@
 /**** MAP ****/
 /*************/
 
+h2 {
+   text-align: center;
+   padding: 1rem;
+   font-size: 1.5rem;
+   color: var(--titleColor);
+}
+
+.map iframe {
+   padding-bottom: 1rem;
+}
+
+.mapPin {
+   width: 30px;
+   margin-left: 15px;
+}
+
+.mapInfo {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.mapInfo address {
+   color: var(--titleColor);
+}
+
+/************************/
+/**** BEREIKBAARHEID ****/
+/************************/
+
+.bereikbaarheid {
+   margin: 1rem 0 1.5rem 0;
+}
+
+.bereikbaarheid img {
+   width: 20px;
+}
+
+h3 {
+   font-size: 1rem;
+}
+
+.metro {
+   color: var(--blue);
+}
+
+.tram {
+   color: var(--yellow);
+}
+
+.bus {
+   color: var(--red);
+}
+
+.metroTitle,
+.tramTitle,
+.busTitle {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin: 5px 10px;
+   margin-top: 20px;
+}
+
+.bereikbaarheid p {
+   margin: 10px;
+   margin-left: 30px;
+   color: var(--titleColor);
+}

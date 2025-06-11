@@ -67,6 +67,11 @@ header {
    margin-top: 2rem;
 }
 
+.mobileMenu a.active {
+   color: var(--yellow);
+   text-decoration: underline var(--yellow);
+}
+
 .mobileMenu a {
    
    text-decoration: none;
