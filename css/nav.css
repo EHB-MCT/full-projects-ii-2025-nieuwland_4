@@ -1,56 +1,76 @@
+/************************/
+/**** HAMBURGER MENU ****/
+/************************/
 
-
-.menu-icon {
-   display: none;
-   font-size: 30px;
-   cursor: pointer;
-}
-
-.navigations {
+header {
    display: flex;
-   gap: 50px;
-   margin: 0;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   position: relative;
+   z-index: 2;
 }
 
-.navigations a {
+.logo img {
+   height: 40px;
+   position: relative;
+   z-index: 3;
+}
+
+.hamburgerBtn {
+   font-size: 2rem;
+   background: none;
+   border: none;
+   cursor: pointer;
+   z-index: 3;
+   transition: all 0.3s ease-in-out;
+}
+
+.hamburgerBtn.rotate {
+   transform: rotate(90deg);
+}
+
+.mobileMenu {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: white;
+   height: 60vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transform: translateY(-100%);
+   transition: transform 0.5s ease-in-out;
+   z-index: 1;
+}
+
+.mobileMenu.show {
+   transform: translateY(0);
+}
+
+.mobileMenu ul {
+   list-style: none;
+   padding: 0;
+}
+
+.mobileMenu li {
+   margin: 1.5rem 0;
+}
+
+.mobileMenu li:last-child {
+   margin-bottom: 0;
+}
+
+.mobileMenu li:first-child {
+   margin-top: 2rem;
+}
+
+.mobileMenu a {
+   
    text-decoration: none;
    color: black;
-   font-size: 20px;
-   font-family: "Pacifico", serif;
+   font-size: 1.5rem;
 }
 
-.navigations a:hover {
-   color: #fb6f93;
-}
-
-@media (max-width: 480px) {
-   .menu-icon {
-      display: block;
-   }
-
-   .navigations {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 70px;
-      right: 0;
-      background-color: white;
-      width: 100%;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      padding: 10px 0;
-      z-index: 1000;
-   }
-
-   .navigations.show {
-      display: flex;
-   }
-
-   .navigations a {
-      padding: 10px 20px;
-      text-align: center;
-      border-bottom: 1px solid #f0f0f0;
-   }
-
-   .navigations a:last-child {
-      border-bottom: none;
-   }

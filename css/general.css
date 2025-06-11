@@ -4,14 +4,13 @@
 :root {
    --titleColor: #222563;
    --yellow: #FBBD4C;
-   --pink: #FC679A;
+   --red: #FC5946;
    --green: #48D06F;
-   --blue: #6AABFB;
+   --blue: #5D9EED;
 }
 
 body {
    font-family: Orienta;
-
 }
 
 h1 {

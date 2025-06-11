@@ -8,19 +8,22 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/general.css">
    <link rel="stylesheet" href="css/index.css">
    <link rel="stylesheet" href="css/nav.css">
-   <link rel="stylesheet" href="css/general.css">
+   <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-   <!--<header>
-      <a href="index.html"><img src="img/logopng.png" alt="Logo"></a>
-      <nav>
+   <header>
+      <a href="index.html" class="logo">
+         <img src="img/logopng.png" alt="logo">
+      </a>
 
-         <button class="hamburger" onclick="toggleMenu">☰</button>
+      <button class="hamburgerBtn">&#9776;</button>
 
-         <ul class="navlink">
+      <nav class="mobileMenu">
+         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="klassen.html">Klassen</a></li>
             <li><a href="nieuws.html">Nieuws</a></li>
@@ -30,30 +33,17 @@
             <li><a href="contact.html">Contact</a></li>
          </ul>
       </nav>
-      
-   </header> -->
-
+   </header>
 
    <div class="banner">
-
-      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-      <nav class="navigations">
-         <a href="contact.html">Contact</a>
-         <a href="klassen.html">Klassen</a>
-      </nav>
-   </div>
-
-   <div class="wrapper">
       <h1>Welkom op Basischool Nieuwland</h1>
    </div>
 
-   
-
    <div class="quicklink">
-      <a href="inschrijving.html" class="quicklink1">Inschrijving</a>
-      <a href="" class="quicklink2">Agenda</a>
-      <a href="" class="quicklink3">Brede School</a>
-      <a href="activiteiten.html" class="quicklink4">Activiteiten</a>
+      <a href="inschrijving.html" class="quicklink1">Inschrijving <img src="img/Icon_header_pink.png" alt=""></a>
+      <a href="" class="quicklink2">Agenda <img src="img/Icon_header_green.png" alt=""></a>
+      <a href="" class="quicklink3">Brede School <img src="img/Icon_header_yellow.png" alt=""></a>
+      <a href="activiteiten.html" class="quicklink4">Activiteiten <img src="img/Icon_header_blue.png" alt=""></a>
    </div>
 
    <div class="slideshow">
@@ -79,7 +69,7 @@
       <h2>Kom eens langs!</h2>
       <section class="map">
          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d322506.9001546278!2d4.34275902645326!3d50.83884753876226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4703e3fee3f%3A0xb2d49e0aae582149!2sRue%20Terre-Neuve%20194%2C%201000%20Bruxelles%2C%20Belgium!5e0!3m2!1sen!2sus!4v1749633178677!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         <img src="img/Icon_location.png" alt="">
+         <img src="img/Icon_location.png" class="mapPin">
          <address>Basischool Nieuwland <br> Nieuwland 194 <br> 1000 Brussel</address>
       </section>
       <section class="bereikbaarheid">
@@ -116,9 +106,3 @@
 </body>
 
 </html>
-<script>
-   function toggleMenu() {
-      const nav = document.querySelector('.navigations');
-      nav.classList.toggle('show');
-   }
-</script>

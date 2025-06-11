@@ -1,4 +1,81 @@
-/* SLIDESHOW */
+/****************/
+/**** BANNER ****/
+/****************/
+
+.banner {
+   background-image: url(../img/header_image.png);
+   background-size: cover;
+   background-position: center;
+   height: 200px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   position: relative;
+   z-index: 1;
+   padding: 0 2rem;
+   box-sizing: border-box;
+}
+
+.banner h1 {
+   color: white;
+   font-size: 1.3rem;
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/********************/
+/**** QUICKLINKS ****/
+/********************/
+
+.quicklink {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1rem;
+   padding: 1rem;
+   padding-bottom: 2rem;
+}
+
+.quicklink a {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: white;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   height: 150px;
+   text-align: center;
+   font-size: 1rem;
+}
+
+.quicklink a img {
+   margin-top: 1rem;
+   width: 40px;
+   height: auto;
+}
+
+.quicklink1 {
+   background-color: var(--red);
+}
+
+.quicklink2 {
+   background-color: var(--green);
+}
+
+.quicklink3 {
+   background-color: var(--yellow);
+}
+
+.quicklink4 {
+   background-color: var(--blue);
+}
+
+/*******************/
+/**** SLIDESHOW ****/
+/*******************/
 
 .slideshow {
    position: relative;
@@ -7,6 +84,7 @@
    aspect-ratio: 4 / 3;
    overflow: hidden;
    height: auto;
+   margin-bottom: 1.5rem;
 }
 
 .slideshow img {
@@ -50,41 +128,7 @@
    }
 }
 
-/* QUICKLINKS*/
+/*************/
+/**** MAP ****/
+/*************/
 
-.quicklink,
-a {
-   text-align: center;
-   display: block;
-   text-decoration: none;
-   color: white;
-   margin-bottom: 1.5rem;
-   padding: 1.5rem;
-   border-radius: 1.5rem;
-}
-
-.quicklink1 {
-   background-color: var(--pink);
-}
-
-.quicklink2 {
-   background-color: var(--green);
-}
-
-.quicklink3 {
-   background-color: var(--yellow);
-}
-
-.quicklink4 {
-   background-color: var(--blue);
-}
-
-/*WRAPPER*/
-
-.wrapper {
-   background-image: url(../img/header_image.png);
-   background-size: cover;
-   padding: 3rem;
-}
-
-/*OTHER*/
