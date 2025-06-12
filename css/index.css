@@ -11,7 +11,7 @@
    background-image: url(../img/header_image.png);
    background-size: cover;
    background-position: center;
-   height: 200px;
+   height: 300px;
    width: 100%;
    display: flex;
    align-items: center;
@@ -26,7 +26,7 @@
 
 .banner h1 {
    color: white;
-   font-size: 1.3rem;
+   font-size: 2.1rem;
    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -38,7 +38,7 @@
 .quicklink {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 1rem;
+   gap: 5rem;
    padding: 1rem;
    padding-bottom: 2rem;
 }
@@ -50,8 +50,8 @@
    justify-content: center;
    text-decoration: none;
    color: white;
-   padding: 1.5rem;
-   border-radius: 1rem;
+   padding: 2rem;
+   border-radius: 3rem;
    height: 150px;
    text-align: center;
    font-size: 1rem;
@@ -127,7 +127,6 @@
 #nextBtn {
    right: 10px;
 }
-
 @media (max-width: 400px) {
    .slideshow button {
       padding: 0.5rem 1rem;
@@ -208,3 +207,251 @@ h3 {
    margin-left: 30px;
    color: var(--titleColor);
 }
+
+
+
+
+
+@media (max-width: 700px) {
+   .slideshow button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+   }
+
+}
+.slideshow {
+  position:relative;
+  max-width:600px;
+  margin:2rem auto;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  border-radius: 50px;
+}
+.slides img {
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:none;
+}
+.slides img.active {
+  display:block;
+}
+.slideshow button {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  border:none;
+  padding:0.5rem 1rem;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:1rem;
+}
+#prevBtn { left:10px; }
+#nextBtn { right:10px; }
+
+/*************/
+/**** QUICKLINKS ****/
+/*************/
+  .quicklink {
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1200px;
+    margin: auto;
+  }
+  .quicklink a {
+    font-size:1.1rem;
+    height:180px;
+    font-size: 30px;
+  }
+
+
+  .quicklink1 img {
+   width: 30px;
+  }
+
+
+/*************/
+/**** MAP ****/
+/*************/
+
+
+h2 {
+   text-align: center;
+   padding: 1rem;
+   font-size: 1.5rem;
+   color: var(--titleColor);
+}
+
+.map {
+   width: 30rem ;
+   height:20rem;
+   margin-left: 10rem;
+   border-radius: 10rem;
+}
+
+.mapPin {
+   width: 30px;
+   margin-left: 15px;
+}
+
+.mapInfo {
+   display: flex;
+   align-items: left;
+   gap: 15px;
+}
+
+.mapInfo address {
+   color: var(--titleColor);
+}
+/************************/
+/**** Hamburger ****/
+/************************/
+
+
+/************************/
+/**** BEREIKBAARHEID ****/
+/************************/
+
+.bereikbaarheid {
+   margin: 5rem 0 1.5rem 0;
+   margin: 5rem;
+   
+}
+
+.bereikbaarheid img {
+   width: 20px;
+}
+
+h3 {
+   font-size: 1rem;
+}
+
+.metro {
+   color: var(--blue);
+}
+
+.tram {
+   color: var(--yellow);
+}
+
+.bus {
+   color: var(--red);
+}
+
+.metroTitle,
+.tramTitle,
+.busTitle {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin: 5px 10px;
+   margin-top: 20px;
+   margin-left: 50rem;
+}
+
+.bereikbaarheid p {
+ margin-left: 50rem;
+ margin-right: 5rem;
+}
+
+/*footer*/
+
+   footer {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 1rem;
+   }
+
+   .footerLogo {
+      order: 0;
+      flex: 1;
+      align-items: center;
+    
+   }
+
+   .footerContact {
+      order: 1;
+      flex: 1;
+   }
+
+   .footerNav {
+      order: 2;
+      flex: 1;
+   }
+
+   .footerSocial {
+      order: 3;
+      flex: 1;
+   }
+
+  section {
+      padding: 0 1rem;
+   }
+
+   .line {
+      display: none;
+   }
+
+   .footerLogo img {
+      width: 15rem;
+   }
+
+footer h3 {
+   font-size: 1rem;
+   color: var(--titleColor);
+   text-align: center;
+   margin-bottom: 1rem;
+}
+
+/*nav*/
+
+
+    header {
+        padding: 1.2rem 2rem;
+    }
+   header img {
+   height: 40px;
+}
+    .hamburgerBtn {
+        display: none;
+    }
+
+    .mobileMenu {
+        position: static;
+        height: auto;
+        transform: none;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-left: auto;
+        background-color: transparent;
+    }
+
+    .mobileMenu ul {
+        display: flex;
+        gap: 2rem;
+        margin: 0;
+    }
+
+    .mobileMenu li {
+        margin: 0;
+    }
+
+    .mobileMenu li:first-child {
+        margin-top: 0;
+    }
+
+    .mobileMenu a {
+        font-size: 1rem;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+    .mobileMenu a:hover {
+        color: var(--yellow);
+        text-decoration: underline;
+    }
+
+ 
