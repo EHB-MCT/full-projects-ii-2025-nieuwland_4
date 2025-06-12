@@ -7,6 +7,7 @@ h1 {
    text-align: center;
    margin-top: 80px;
    padding: 1rem;
+   padding-bottom: 1.5rem;
    color: var(--titleColor);
    font-size: 1.3rem;
 }
@@ -15,13 +16,151 @@ h1 {
 
 .infomomenten {
    text-align: center;
+   color: var(--titleColor);
+   margin-bottom: 1rem;
 }
 
 .infomomenten li {
    text-align: left;
+   font-size: 0.8rem;
+   padding: 0.5rem;
 }
 
 .infomomenten li::before {
    content: "\2713";
    padding-right: 0.5rem;
 }
+
+.infoT {
+   font-size: 1.1rem;
+   font-weight: bold;
+}
+
+.tekst {
+   padding: 1rem;
+}
+
+
+/*** INSCHRIJVING ***/
+
+.inschrijving {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1rem;
+   padding: 1rem;
+   padding-bottom: 2rem;
+}
+
+.inschrijving div {
+   padding: 1rem;
+   border-radius: 2rem;
+   color: white;
+   text-align: center;
+}
+
+.inschrijvingTekst {
+   font-size: 0.7rem;
+}
+
+.inschrijvingTitle {
+   padding-bottom: 1rem;
+}
+
+.nmr {
+   font-size: 1.4rem;
+   font-weight: bold;
+}
+
+.stap1 {
+   background-color: var(--green);
+}
+
+.stap2 {
+   background-color: var(--blue);
+}
+
+.stap3 {
+   background-color: var(--red);
+}
+
+.stap4 {
+   background-color: var(--yellow);
+}
+
+.inschrijving img {
+   margin-top: 1rem;
+   width: 2.5rem;
+}
+
+/*** INFORMATIEBRON ***/
+
+.infoT {
+   font-size: 1.1rem;
+   font-weight: bold;
+   padding-bottom: 1rem;
+}
+
+.infobron {
+   color: var(--titleColor);
+   margin-bottom: 1rem;
+   padding: 1rem;
+}
+
+.infobron a {
+   text-decoration: none;
+   color: var(--blue);
+}
+
+.infobron a::before {
+   content: "\2BA1";
+   padding-right: 0.5rem;
+   font-size: 1.2rem;
+}
+
+.infobron a:hover {
+   text-decoration: underline;
+}
+
+.infobron ul {
+   padding: 0.5rem 1rem;
+}
+
+.infobron li {
+   padding-bottom: 0.5rem;
+}
+
+.infobron li::before {
+   content: "\2022";
+   padding-right: 0.5rem;
+      font-size: 1.2rem;
+}
+
+.small {
+   font-size: 0.6rem;
+}
+
+
+/*
+.infomomenten {
+   text-align: center;
+   color: var(--titleColor);
+   margin-bottom: 1rem;
+}
+
+.infomomenten li {
+   text-align: left;
+   font-size: 0.8rem;
+   padding: 0.5rem;
+}
+
+.infomomenten li::before {
+   content: "\2713";
+   padding-right: 0.5rem;
+}
+
+
+
+.tekst {
+   padding: 1rem;
+}
+*/
