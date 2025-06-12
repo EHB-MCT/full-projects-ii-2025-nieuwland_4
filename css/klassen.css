@@ -1,0 +1,131 @@
+@import "reset.css";
+@import "general.css";
+@import "nav.css";
+@import "footer.css";
+
+/****************/
+/**** BANNER ****/
+/****************/
+
+.banner {
+   margin-top: 80px;
+   background-color: var(--red);
+   border-radius: 1rem;
+   padding: 2rem;
+}
+
+.banner h1 {
+   color: white;
+   text-align: center;
+   font-size: 1.3rem;
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.banner p {
+   color: white;
+   text-align: center;
+   font-size: 0.8rem;
+   padding: 0.5rem;
+}
+
+.bannerBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.bannerBtn button {
+   background-color: var(--red);
+   padding: 0.5rem;
+   margin-top: 1rem;
+   border: 2px solid white;
+   border-radius: 1rem;
+   transition: all 0.2s ease-in;
+}
+
+.bannerBtn a {
+   text-decoration: none;
+   color: white;
+   transition: all 0.2s ease-in;
+}
+
+.bannerBtn button:hover {
+   background-color: white;
+}
+
+.bannerBtn a:hover {
+   color: var(--red);
+}
+
+
+/*****************/
+/**** KLASSEN ****/
+/*****************/
+
+h1 {
+   text-align: center;
+   padding: 1rem;
+   font-size: 1.3rem;
+   color: var(--titleColor);
+}
+
+.klassen img {
+   width: 100%;
+}
+
+h2 {
+   text-align: center;
+   color: var(--titleColor);
+   margin-bottom: 1rem;
+}
+
+.klasInfo {
+   padding: 1rem;
+   margin-bottom: 1.5rem;
+   border: 1px solid transparent;
+   border-bottom-left-radius: 1rem;
+   border-bottom-right-radius: 1rem;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+   background-color: white;
+}
+
+.jufInfo {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+   margin-top: 1rem;
+}
+
+.jufInfo img {
+   width: 100px;
+   height: auto;
+   margin-right: 1rem;
+}
+
+.jufInfo p {
+   flex-grow: 1;
+   font-size: 1rem;
+   margin: 0;
+}
+
+.contactBtn {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.contactBtn button {
+   padding: 0.5rem 1.5rem;
+   background-color: var(--yellow);
+   color: white;
+   border: none;
+   border-radius: 1rem;
+   cursor: pointer;
+}
+
+.contactBtn button a {
+   color: var(--titleColor);
+   text-decoration: none;
+   font-weight: 600;
+}
