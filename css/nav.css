@@ -7,8 +7,13 @@ header {
    justify-content: space-between;
    align-items: center;
    padding: 1rem;
-   position: relative;
-   z-index: 2;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 10;
+   background-color: White;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .logo img {
@@ -78,4 +83,3 @@ header {
    color: black;
    font-size: 1.5rem;
 }
-
