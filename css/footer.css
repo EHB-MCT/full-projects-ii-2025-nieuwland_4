@@ -57,6 +57,10 @@ footer {
    padding-bottom: 1rem;
 }
 
+.footerNav li:last-child {
+   padding-bottom: 0;
+}
+
 /***  SOCIAL  ***/
 
 .footerSocial {
@@ -69,7 +73,6 @@ footer {
    list-style: none;
    display: flex;
    gap: 1rem;
-   /* spacing between icons */
    padding: 0;
    margin: 0;
 }
@@ -86,4 +89,5 @@ footer {
 
 .footerLogo img {
    width: 80%;
+   padding-left: 1.5rem;
 }

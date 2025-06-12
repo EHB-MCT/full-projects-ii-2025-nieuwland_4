@@ -2,3 +2,78 @@
 @import "general.css";
 @import "nav.css";
 @import "footer.css";
+
+h1 {
+   text-align: center;
+   margin-top: 80px;
+   padding: 1rem;
+   color: var(--titleColor);
+   font-size: 1.3rem;
+}
+
+h2 {
+   padding: 1rem;
+   color: white;
+   padding-top: 1.5rem;
+}
+
+.visieTekst {
+   
+   padding-bottom: 1.5rem;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+}
+
+.visie1 .visieTekst {
+   background-color: var(--red);
+}
+
+.visie2 .visieTekst {
+   background-color: var(--green);
+}
+
+.visie3 .visieTekst {
+   background-color: var(--blue);
+}
+
+p {
+   padding: 1rem;
+   padding-top: 0;
+   color: white;
+}
+
+.visie img {
+   margin-bottom: 2rem;
+   width: 100%;
+   border-bottom-right-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.visie a {
+   text-decoration: none;
+   color: white;
+   padding: 0.5rem 1rem;
+   border: 2px solid white;
+   border-radius: 2rem;
+   margin: 0rem 1rem;
+   display: block;
+   width: fit-content;
+   margin-left: auto;
+   transition: all 0.2s ease-in;
+}
+
+.visie1 a:hover {
+   color: var(--red);
+   background-color: white;
+}
+
+.visie2 a:hover {
+   color: var(--green);
+   background-color: white;
+}
+
+.visie3 a:hover {
+   color: var(--blue);
+   background-color: white;
+}
