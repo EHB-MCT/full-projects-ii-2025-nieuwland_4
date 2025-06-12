@@ -1,0 +1,126 @@
+@import "reset.css";
+@import "general.css";
+@import "nav.css";
+@import "footer.css";
+
+h1 {
+   text-align: center;
+   margin-top: 80px;
+   color: var(--titleColor);
+   font-size: 1.3rem;
+   padding: 1rem;
+}
+
+/*******************/
+/**** BROCHURES ****/
+/*******************/
+
+.brochures {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 2rem;
+   padding: 2rem;
+   text-align: center;
+   box-sizing: border-box;
+   max-width: 100%;
+}
+
+
+.brochures>div {
+   background-color: white;
+   border-radius: 1rem;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   height: 300px;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+.brochures h2 {
+   margin-bottom: 1rem;
+   font-size: 1rem;
+}
+
+.schoolregelement h2 {
+   color: var(--red);
+}
+
+.kalender h2 {
+   color: var(--green);
+}
+
+.schoolBrochure h2 {
+   color: var(--blue);
+}
+
+.peuterBrochure h2 {
+   color: var(--titleColor);
+}
+
+.brochures img {
+   width: 60px;
+   height: auto;
+   margin-bottom: 1rem;
+}
+
+.downloadBtn {
+   margin-top: auto;
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   border: none;
+   border-radius: 999px;
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.schoolregelement .downloadBtn {
+   background-color: var(--red);
+}
+
+.kalender .downloadBtn {
+   background-color: var(--green);
+}
+
+.schoolBrochure .downloadBtn {
+   background-color: var(--blue);
+}
+
+.peuterBrochure .downloadBtn {
+   background-color: var(--titleColor);
+}
+
+.schoolregelement .downloadBtn:hover {
+   background-color: rgba(255, 255, 255, 0.8);
+   color: var(--red);
+}
+
+.kalender .downloadBtn:hover {
+   background-color: rgba(255, 255, 255, 0.8);
+   color: var(--green);
+}
+
+.schoolBrochure .downloadBtn:hover {
+   background-color: rgba(255, 255, 255, 0.8);
+   color: var(--blue);
+}
+
+.peuterBrochure .downloadBtn:hover {
+   background-color: rgba(255, 255, 255, 0.8);
+   color: var(--titleColor);
+}
+
+@media (max-width: 400px) {
+   .brochures {
+      grid-template-columns: 1fr;
+   }
+
+   .brochures>div {
+      height: auto;
+   }
+}
