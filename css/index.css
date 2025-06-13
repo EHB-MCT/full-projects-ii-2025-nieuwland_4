@@ -128,12 +128,6 @@
    right: 10px;
 }
 
-@media (max-width: 400px) {
-   .slideshow button {
-      padding: 0.5rem 1rem;
-      font-size: 0.9rem;
-   }
-}
 
 /*************/
 /**** MAP ****/
@@ -207,4 +201,115 @@ h3 {
    margin: 10px;
    margin-left: 30px;
    color: var(--titleColor);
+}
+
+/********************/
+/**** RESPONSIVE ****/
+/********************/
+
+@media (max-width: 400px) {
+   .slideshow button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+   }
+}
+
+@media (min-width: 800px) {}
+
+@media (min-width: 800px) {
+   .banner {
+      height: 300px;
+   }
+
+   .banner h1 {
+      font-size: 2rem;
+   }
+
+   .quicklink {
+      grid-template-columns: repeat(4, 1fr);
+   }
+
+   .quicklink a {
+      font-size: 1.5rem;
+   }
+
+   .quicklink a img {
+      width: 55px;
+   }
+
+   .slideshow {
+      margin: 0 auto 1.5rem auto;
+      position: relative;
+      overflow: visible;
+   }
+
+   .slideshow img {
+      border-radius: 2rem;
+   }
+
+   .slideshow button {
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+   }
+
+   #prevBtn {
+      left: -50px;
+   }
+
+   #nextBtn {
+      right: -50px;
+   }
+
+   div>h2 {
+      text-align: center;
+   }
+
+   div {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      align-items: flex-start;
+   }
+
+   .map,
+   .bereikbaarheid {
+      flex: 1 1 45%;
+      max-width: 600px;
+      padding: 1rem;
+   }
+
+   .map {
+      margin-bottom: 1.5rem;
+   }
+
+   h2 {
+      margin-bottom: 2rem;
+   }
+
+   .bereikbaarheid {
+      margin-top: 0;
+      padding-top: 0;
+   }
+}
+
+@media (min-width: 1000px) {
+   .quicklink {
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+}
+
+@media (min-width: 1200px) {
+   .quicklink {
+      margin-left: 10%;
+      margin-right: 10%;
+   }
+}
+
+@media (min-width: 1400px) {
+   .quicklink {
+      margin-left: 15%;
+      margin-right: 15%;
+   }
 }

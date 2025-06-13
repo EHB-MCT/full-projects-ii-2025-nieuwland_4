@@ -123,4 +123,11 @@ h1 {
    .brochures>div {
       height: auto;
    }
+
+}
+
+@media (min-width: 800px) {
+   h1 {
+      padding-top: 2rem;
+   }
 }

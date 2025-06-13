@@ -91,3 +91,51 @@ footer {
    width: 80%;
    padding-left: 1.5rem;
 }
+
+/***  RESPONSIVE  ***/
+
+@media (min-width: 800px) {
+   footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 2rem;
+      gap: 2rem;
+   }
+
+   .footerContact,
+   .footerNav,
+   .footerSocial,
+   .footerLogo {
+      flex: 1 1 10%;
+   }
+
+   .line {
+      display: none;
+   }
+
+   .footerNav ul {
+      text-align: left;
+   }
+
+   .footerLogo {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 3rem;
+   }
+
+   .footerLogo img {
+      width: 200px;
+      padding-left: 0;
+   }
+
+   .footerContact {
+      margin-top: 2.5rem;
+   }
+
+   .footerSocial {
+      margin-top: 5rem;
+   }
+}
