@@ -2,3 +2,125 @@
 @import "general.css";
 @import "nav.css";
 @import "footer.css";
+
+h1 {
+   text-align: center;
+   margin-top: 80px;
+   padding: 1rem;
+   color: var(--titleColor);
+   font-size: 1.3rem;
+}
+
+.h1besch {
+   text-align: center;
+   color: var(--titleColor);
+   padding-bottom: 1rem;
+}
+
+.contactText {
+   color: var(--titleColor);
+   font-size: 0.8rem;
+}
+
+.contact1 {
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   border-radius: 3rem;
+   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+   margin-bottom: 2rem;
+}
+
+#contact1 {
+   background-color: var(--blue);
+}
+
+#contact2 {
+   background-color: var(--green);
+}
+
+#contact3 {
+   background-color: var(--yellow);
+}
+
+#contact4 {
+   background-color: var(--red);
+}
+
+.contact1 img {
+   width: 30%;
+}
+
+.contactText p {
+   margin: 0.5rem 0;
+}
+
+.naam {
+   color: white;
+   font-family: rammetto one;
+   font-size: 1rem;
+}
+
+/*** CONTACTFORMULIER ***/
+
+h2 {
+   padding-bottom: 1rem;
+   color: var(--titleColor);
+   text-align: center;
+}
+
+form {
+   background-color: var(--yellow);
+   border-top-left-radius: 3rem;
+   border-top-right-radius: 3rem;
+   margin: 2rem auto;
+   padding: 2rem;
+   margin-bottom: 0;
+   max-width: 100%;
+}
+
+form label {
+   color: var(--titleColor);
+   font-size: 0.8rem;
+   display: block;
+
+}
+
+form p {
+   margin-top: 2rem;
+}
+
+form p:last-child {
+   text-align: center;
+}
+
+form input,
+form select,
+form textarea {
+   width: 100%;
+   padding: 1rem;
+   font-size: 1rem;
+   border-radius: 2rem;
+   border: 1px solid #ccc;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   box-sizing: border-box;
+}
+
+.option1 {
+   color: #EEEEEE;
+}
+
+form button {
+   background-color: var(--yellow);
+   border: 3px solid white;
+   border-radius: 1rem;
+   padding: 0.5rem 1rem;
+   color: white;
+   transition: all 0.2s ease-in;
+}
+
+form button:hover {
+   background-color: white;
+   color: var(--yellow);
+}
