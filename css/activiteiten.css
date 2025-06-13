@@ -35,6 +35,10 @@ h2 {
    border-top-right-radius: 1rem;
 }
 
+.activiteiten {
+   margin: 1rem;
+}
+
 .tekst {
    padding: 1rem;
    color: white;
