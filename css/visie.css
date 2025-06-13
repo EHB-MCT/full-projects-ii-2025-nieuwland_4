@@ -41,6 +41,10 @@ p {
    color: white;
 }
 
+.visie {
+   margin: 1rem;
+}
+
 .visie img {
    margin-bottom: 2rem;
    width: 100%;
@@ -90,7 +94,7 @@ p {
    }
 
    .visie1 img,
-   .visie2 img,
+
    .visie3 img {
       width: 50%;
       height: 400px;
@@ -100,8 +104,31 @@ p {
       object-fit: cover;
    }
 
+   .visie2 img {
+      width: 50%;
+      height: 400px;
+      margin-bottom: 0;
+      border-radius: 1rem 0 0 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      object-fit: cover;
+   }
+
+   .visie2 {
+      flex-direction: row-reverse;
+   }
+
+   .visie2 .visieTekst {
+      width: 50%;
+      border-radius: 0 1rem 1rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+   }
+
+
+
    .visie1 .visieTekst,
-   .visie2 .visieTekst,
    .visie3 .visieTekst {
       width: 50%;
       border-radius: 1rem 0 0 1rem;
@@ -116,7 +143,7 @@ p {
    }
 }
 
-@media screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
 
    .visie1,
    .visie2,

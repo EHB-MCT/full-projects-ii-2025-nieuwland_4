@@ -132,9 +132,31 @@ h1 {
 .infobron li::before {
    content: "\2022";
    padding-right: 0.5rem;
-      font-size: 1.2rem;
+   font-size: 1.2rem;
 }
 
 .small {
    font-size: 0.6rem;
+}
+
+
+@media screen and (min-width: 800px) {
+   .inschrijving {
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+   }
+
+   .infomomenten li {
+      text-align: center;
+   }
+
+   .infobron {
+      text-align: center;
+   }
+
+   h1 {
+      padding-top: 2rem;
+   }
 }
