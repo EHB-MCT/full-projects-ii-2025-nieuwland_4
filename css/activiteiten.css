@@ -66,3 +66,55 @@ h2 {
    color: var(--red);
    background-color: white;
 }
+
+
+/*** RESPONSIVE ***/
+
+
+@media (min-width: 800px) {
+   .activiteiten {
+      display: flex;
+      gap: 2rem;
+      align-items: stretch;
+   }
+
+   .activiteit1,
+   .activiteit2 {
+      flex: 1;
+      max-width: 50%;
+      display: flex;
+   }
+
+   .activiteit1 {
+      margin-left: 5rem;
+   }
+
+      .activiteit2 {
+         margin-right: 5rem;
+      }
+
+   .beschrijving {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .beschrijving img {
+      height: auto;
+      /* keep image natural */
+      width: 100%;
+      object-fit: cover;
+   }
+
+   .tekst {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+   h1 {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+   }
+}

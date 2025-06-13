@@ -76,3 +76,55 @@ p {
    color: var(--blue);
    background-color: white;
 }
+
+
+
+@media (min-width: 800px) {
+
+   .visie1,
+   .visie2,
+   .visie3 {
+      display: flex;
+      align-items: stretch;
+      margin: 1rem;
+   }
+
+   .visie1 img,
+   .visie2 img,
+   .visie3 img {
+      width: 50%;
+      height: 400px;
+      margin-bottom: 0;
+      border-radius: 0 1rem 1rem 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      object-fit: cover;
+   }
+
+   .visie1 .visieTekst,
+   .visie2 .visieTekst,
+   .visie3 .visieTekst {
+      width: 50%;
+      border-radius: 1rem 0 0 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+   }
+
+   h1 {
+      padding-top: 2rem;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+
+   .visie1,
+   .visie2,
+   .visie3 {
+      margin: 2rem 5rem;
+   }
+
+   h1 {
+      padding-top: 3rem;
+   }
+}
