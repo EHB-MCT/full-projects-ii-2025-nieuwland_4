@@ -106,6 +106,7 @@ header {
       background: none;
       box-shadow: none;
       padding-right: 30px;
+      padding-bottom: 1rem;
    }
 
    .menu ul {
@@ -126,7 +127,7 @@ header {
 
    .logo-img {
       content: url('../img/logonieuwland.png');
-      transform: scale(1.7);
+      transform: scale(1.8);
       transform-origin: left center;
    }
 
