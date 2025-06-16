@@ -10,7 +10,7 @@ header {
    position: fixed;
    top: 0;
    left: 0;
-   width: 97%;
+   width: 100%;
    z-index: 10;
    background-color: White;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -29,6 +29,8 @@ header {
    cursor: pointer;
    z-index: 3;
    transition: all 0.3s ease-in-out;
+   margin-right: 25px;
+   transform-origin: center;
 }
 
 .hamburgerBtn.rotate {
@@ -103,6 +105,7 @@ header {
       justify-content: flex-end;
       background: none;
       box-shadow: none;
+      padding-right: 30px;
    }
 
    .menu ul {
@@ -131,6 +134,6 @@ header {
 
 @media (min-width: 1000px) {
    .menu a {
-         font-size: 1.2rem;
-      }
+      font-size: 1.2rem;
+   }
 }

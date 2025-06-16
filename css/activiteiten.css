@@ -30,6 +30,8 @@ h2 {
 }
 
 .beschrijving img {
+   height: 300px;
+   object-fit: cover;
    width: 100%;
    border-top-left-radius: 1rem;
    border-top-right-radius: 1rem;
@@ -104,9 +106,9 @@ h2 {
    }
 
    .beschrijving img {
-      height: auto;
-      width: 100%;
+      height: 300px;
       object-fit: cover;
+      width: 100%;
    }
 
    .tekst {
