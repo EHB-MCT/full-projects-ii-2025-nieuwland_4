@@ -3,6 +3,7 @@
 @import "nav.css";
 @import "footer.css";
 
+
 /****************/
 /**** BANNER ****/
 /****************/
@@ -299,6 +300,10 @@ h3 {
    .quicklink {
       margin-left: 5%;
       margin-right: 5%;
+   }
+
+   .bereikbaarheid p {
+      font-size: 1.1rem;
    }
 }
 

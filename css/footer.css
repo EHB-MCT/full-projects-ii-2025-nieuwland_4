@@ -89,6 +89,21 @@ footer {
    height: 40px;
 }
 
+.fbIcon,
+.instaIcon {
+   transition: all 0.2s ease-in-out;
+}
+
+.fbIcon:hover {
+   fill: white;
+   scale: 1.2;
+}
+
+.instaIcon:hover {
+   fill: white;
+   scale: 1.2;
+}
+
 /***  LOGO  ***/
 
 .footerLogo img {

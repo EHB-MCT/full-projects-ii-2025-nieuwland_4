@@ -128,3 +128,9 @@ header {
    }
 
 }
+
+@media (min-width: 1000px) {
+   .menu a {
+         font-size: 1.2rem;
+      }
+}
