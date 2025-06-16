@@ -186,7 +186,6 @@ form button:hover {
       border-top-right-radius: 5rem;
    }
 
-
    form {
       border-radius: 2rem;
       padding: 2rem;
@@ -216,7 +215,7 @@ form button:hover {
    }
 
    .form-info img {
-      width: 50%;
+      width: 60%;
    }
 
    .form-tekst {

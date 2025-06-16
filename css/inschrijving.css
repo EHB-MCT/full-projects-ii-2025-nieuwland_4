@@ -73,18 +73,22 @@ h1 {
 
 .stap1 {
    background-color: var(--green);
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .stap2 {
    background-color: var(--blue);
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .stap3 {
    background-color: var(--red);
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .stap4 {
    background-color: var(--yellow);
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .inschrijving img {
