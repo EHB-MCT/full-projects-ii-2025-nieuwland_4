@@ -123,5 +123,8 @@ header {
 
    .logo-img {
       content: url('../img/logonieuwland.png');
+      transform: scale(1.7);
+      transform-origin: left center;
    }
+
 }
