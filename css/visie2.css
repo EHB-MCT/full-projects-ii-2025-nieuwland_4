@@ -1,0 +1,126 @@
+@import "reset.css";
+@import "general.css";
+@import "nav.css";
+@import "footer.css";
+
+.banner {
+   background-image: url(../img/orientatie.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.banner h1 {
+   color: white;
+   font-size: 2.5rem;
+   text-align: center;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.visieTekst {
+   padding: 2rem;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.visie-columns {
+   column-count: 2;
+   column-gap: 2rem;
+}
+
+
+h2 {
+   color: #222563;
+   font-size: 1.1rem;
+   margin-top: 1rem;
+}
+
+p {
+   color: #222563;
+   font-size: 1rem;
+   margin-bottom: 1rem;
+}
+
+/*** RESPONSIVE ***/
+
+@media (max-width: 768px) {
+   .visie-columns {
+      column-count: 1;
+   }
+
+   .banner {
+      height: 40vh;
+   }
+
+   .banner h1 {
+      font-size: 1.8rem;
+      padding: 1rem;
+   }
+}
+
+.banner {
+   background-image: url(../img/orientatie.jpg);
+   background-size: cover;
+   background-position: center 30%;
+   width: 100%;
+   height: 50vh;
+   display: flex;
+}
+
+.banner h1 {
+   color: white;
+   font-size: 2.5rem;
+   padding: 2rem;
+}
+
+
+.subheading {
+   text-align: center;
+   color: #FC5946;
+   margin: 2rem auto;
+   font-size: 1.2rem;
+}
+
+
+.visieTekst {
+   padding: 2rem;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.visie-columns {
+   column-count: 2;
+   column-gap: 4rem;
+}
+
+h2 {
+   color: #222563;
+   font-size: 1.1rem;
+   margin-top: 1rem;
+}
+
+p {
+   color: #222563;
+   font-size: 1rem;
+   margin-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+   .visie-columns {
+      column-count: 1;
+   }
+
+   .banner {
+      height: 40vh;
+   }
+
+   .banner h1 {
+      font-size: 1.8rem;
+      padding: 1rem;
+   }
+}
+
