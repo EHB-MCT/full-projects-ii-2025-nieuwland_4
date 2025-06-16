@@ -92,6 +92,16 @@ h1 {
    width: 2.5rem;
 }
 
+/*** POSTER ***/
+
+.poster img {
+   width: 60%;
+   display: block;
+   margin: 0 auto;
+   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+   margin-bottom: 1.5rem;
+}
+
 /*** INFORMATIEBRON ***/
 
 .infoT {
@@ -139,8 +149,17 @@ h1 {
    font-size: 0.6rem;
 }
 
+.stap2 img {
+   padding-top: 1rem;
+}
 
-@media screen and (min-width: 800px) {
+.poster-info {
+   display: block;
+   padding: 1rem;
+}
+
+
+@media (min-width: 800px) {
    .inschrijving {
       grid-template-columns: repeat(4, 1fr);
       justify-content: center;
@@ -158,5 +177,41 @@ h1 {
 
    h1 {
       padding-top: 2rem;
+      font-size: 1.5rem;
+   }
+
+   .stap2 img {
+      padding-top: 0;
+   }
+
+   .poster img {
+      width: 30%;
+   }
+
+   .poster-info {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 1rem;
+      flex-wrap: wrap;
+   }
+
+   .poster,
+   .infobron {
+      flex: 1 1 45%;
+      max-width: 45%;
+   }
+
+   .poster img {
+      width: 80%;
+   }
+}
+
+@media (min-width: 1200px) {
+   .stap2 img {
+      padding-top: 1rem;
    }
 }

@@ -93,9 +93,9 @@ h2 {
       margin-left: 5rem;
    }
 
-      .activiteit2 {
-         margin-right: 5rem;
-      }
+   .activiteit2 {
+      margin-right: 5rem;
+   }
 
    .beschrijving {
       display: flex;
@@ -105,7 +105,6 @@ h2 {
 
    .beschrijving img {
       height: auto;
-      /* keep image natural */
       width: 100%;
       object-fit: cover;
    }
@@ -119,6 +118,6 @@ h2 {
 
    h1 {
       padding-top: 2rem;
-      padding-bottom: 2rem;
+      font-size: 1.5rem;
    }
 }

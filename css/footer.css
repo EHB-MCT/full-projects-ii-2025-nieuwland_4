@@ -53,6 +53,10 @@ footer {
    color: var(--titleColor);
 }
 
+.footerNav li a:hover {
+   text-decoration: underline;
+}
+
 .footerNav li {
    padding-bottom: 1rem;
 }
@@ -90,6 +94,7 @@ footer {
 .footerLogo img {
    width: 80%;
    padding-left: 1.5rem;
+   padding-right: 3rem;
 }
 
 /***  RESPONSIVE  ***/
@@ -127,9 +132,10 @@ footer {
    }
 
    .footerLogo img {
-      width: 200px;
+      width: 250px;
       padding-left: 0;
    }
+
 
    .footerContact {
       margin-top: 2.5rem;
