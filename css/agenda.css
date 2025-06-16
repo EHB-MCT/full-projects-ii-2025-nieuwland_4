@@ -2,3 +2,100 @@
 @import "general.css";
 @import "nav.css";
 @import "footer.css";
+
+h1 {
+   text-align: center;
+   margin-top: 80px;
+   color: var(--titleColor);
+   font-size: 1.3rem;
+   padding: 1rem;
+}
+
+.agenda {
+   padding: 1rem;
+   padding-bottom: 2rem;
+}
+
+.agenda1 {
+   background-color: var(--red);
+}
+
+.agenda2 {
+   background-color: var(--green);
+}
+
+.agenda3 {
+   background-color: var(--blue);
+}
+
+.agenda1,
+.agenda2,
+.agenda3 {
+   border-radius: 1rem;
+   padding: 1rem 1.5rem;
+   margin-bottom: 1rem;
+   color: white;
+   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.agendaTitle {
+   display: flex;
+   align-items: center;
+   font-size: 1.1rem;
+   margin-bottom: 0.5rem;
+   font-family: rammetto one;
+}
+
+.agendaTitle img {
+   height: 1.8rem;
+   margin-right: 0.5rem;
+}
+
+.agenda ul {
+   font-size: 1rem;
+   margin: 0;
+   padding-left: 1.5rem;
+   list-style-type: disc;
+}
+
+.agenda ul li {
+   padding-bottom: 0.5rem;
+}
+
+.extra {
+   padding: 1rem;
+   padding-bottom: 2rem;
+   border-radius: 1rem;
+   padding: 1rem 1.5rem;
+   margin-bottom: 1rem;
+   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+   background-color: var(--yellow);
+   
+}
+
+.extraTitle {
+   display: flex;
+   align-items: center;
+   font-size: 1.1rem;
+   margin-bottom: 0.5rem;
+   font-family: rammetto one;
+   color: white;
+}
+
+.extra a {
+   font-size: 1rem;
+   margin: 0;
+   padding-left: 1.5rem;
+   list-style-type: disc;
+   color: white;
+   text-decoration: none;
+}
+
+.extra a::before {
+   content: "\1F872";
+   padding-right: 5px;
+}
+
+.extra a:hover {
+   text-decoration: underline;
+}
