@@ -81,15 +81,15 @@
          <h2>Contactformulier</h2>
          <p>
             <label for="naamOuder">Naam ouder</label><br>
-            <input type="text" id="naamOuder" required>
+            <input type="text" id="naamOuder" name="naamOuder" required>
          </p>
          <p>
             <label for="naamLln">Naam leerling</label><br>
-            <input type="text" id="naamLln" required>
+            <input type="text" id="naamLln" name="naamLln" required>
          </p>
          <p>
             <label for="klas">Selecteer klas</label><br>
-            <select id="klas" required>
+            <select id="klas" name="klas" required>
                <option value="">--Kies een optie--</option>
                <option value="1">Peuterklas</option>
                <option value="2">Kleuterklas</option>
@@ -103,11 +103,11 @@
          </p>
          <p>
             <label for="telnmr">Telefoon nummer</label><br>
-            <input type="tel" id="telnmr" required>
+            <input type="tel" id="telnmr" name="telnmr" required>
          </p>
          <p>
             <label for="ontvanger">Selecteer contactpersoon</label><br>
-            <select id="ontvanger" required>
+            <select id="ontvanger" name="ontvanger" required>
                <option value="">--Kies een optie--</option>
                <option value="1">Brian Rotsaert</option>
                <option value="2">Stefanie Debolle</option>
@@ -117,7 +117,7 @@
          </p>
          <p>
             <label for="bericht">Schrijf hier uw bericht</label><br>
-            <textarea id="bericht" cols="40" rows="5" required></textarea>
+            <textarea id="bericht" name="bericht" cols="40" rows="5" required></textarea>
          </p>
          <p>
             <button type="submit">Verzenden</button>
