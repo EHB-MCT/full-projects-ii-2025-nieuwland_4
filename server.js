@@ -51,12 +51,13 @@ app.post('/send', async (req, res) => {
   };
 
   try {
-    await transporter.sendMail(mailOptions);
-    res.status(200).send('Bericht verzonden!');
-  } catch (err) {
-    console.error(err);
-    res.status(500).send('Fout bij verzenden');
-  }
+   await transporter.sendMail(mailOptions);
+   console.log('Email sent to:', toEmail);  // <-- Add this line here
+   res.status(200).send('Bericht verzonden!'); // <-- And this line here
+ } catch (err) {
+   console.error(err);
+   res.status(500).send('Fout bij verzenden');
+ }
 });
 
 app.listen(PORT, () => {
