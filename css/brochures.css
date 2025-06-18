@@ -115,6 +115,10 @@ h1 {
    color: var(--titleColor);
 }
 
+/******************/
+/*** RESPONSIVE ***/
+/******************/
+
 @media (max-width: 400px) {
    .brochures {
       grid-template-columns: 1fr;
@@ -128,12 +132,16 @@ h1 {
 
 @media (min-width: 800px) {
    h1 {
-      padding-top: 2rem;
+      padding-top: 3rem;
       font-size: 1.5rem;
    }
 
    .brochures img {
       width: 80px;
       height: auto;
+   }
+
+   .brochures {
+      padding-bottom: 3rem;
    }
 }

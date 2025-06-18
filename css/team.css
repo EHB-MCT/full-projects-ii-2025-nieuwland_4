@@ -1,0 +1,172 @@
+@import "reset.css";
+@import "general.css";
+@import "nav.css";
+@import "footer.css";
+
+.banner {
+   background-image: url(../img/image-team.png);
+   background-size: cover;
+   background-position: center;
+   height: 300px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   position: relative;
+   z-index: 1;
+   padding: 0 2rem;
+   margin-top: 80px;
+   box-sizing: border-box;
+}
+
+.banner img {
+   width: 3rem;
+}
+
+.banner h1 {
+   color: white;
+   font-size: 2.1rem;
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.teamPage {
+   background-color: #fff;
+   padding: 2rem 1rem 5rem;
+   max-width: 1000px;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+.teamGroup {
+   margin-bottom: 3rem;
+   text-align: center;
+}
+
+.teamGroup h2 {
+   color: #222563;
+   font-size: 1.3rem;
+   margin-bottom: 1.5rem;
+   font-weight: bold;
+}
+
+.teamRow {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   flex-wrap: wrap;
+}
+
+.teamRow.center {
+   justify-content: center;
+}
+
+.circleImg {
+   width: 100px;
+   height: 100px;
+   background-color: #d9d9d9;
+   border-radius: 50%;
+   margin-bottom: 0.7rem;
+}
+
+.teamCard h3 {
+   color: #222563;
+   font-size: 1rem;
+   margin: 0;
+}
+
+.teamCard p {
+   font-size: 0.9rem;
+   color: #333;
+   margin: 0.2rem 0 0;
+}
+
+.teamRowPair {
+   display: flex;
+   justify-content: center;
+   gap: 4rem;
+   margin-bottom: 3rem;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.teamRowPair>.teamGroup,
+.teamRowPair>.teamGroupColumn {
+   flex: 1 1 45%;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+.teamGroupColumn {
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+}
+
+#lichamelijke-opvoeding .teamRow {
+   justify-content: flex-start;
+}
+
+
+@media (max-width: 768px) {
+   .banner {
+      height: 200px;
+      padding: 0 1rem;
+      margin-top: 60px;
+   }
+
+   .banner h1 {
+      font-size: 1.5rem;
+   }
+
+   .banner img {
+      width: 2rem;
+   }
+
+   .teamPage {
+      padding: 1rem 1rem 3rem;
+      max-width: 100%;
+   }
+
+   .teamRowPair {
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 100%;
+   }
+
+   .teamRowPair>.teamGroup,
+   .teamRowPair>.teamGroupColumn {
+      flex: 1 1 100%;
+      text-align: center;
+   }
+
+   .teamRow {
+      flex-direction: column;
+      gap: 1.5rem;
+   }
+
+   .teamCard {
+      max-width: 100%;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 1rem;
+   }
+
+   .circleImg {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 0;
+   }
+
+   .teamCard h3 {
+      font-size: 1.1rem;
+   }
+
+   .teamCard p {
+      font-size: 1rem;
+      margin: 0;
+   }
+}
