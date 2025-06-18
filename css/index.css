@@ -51,9 +51,9 @@
    justify-content: center;
    text-decoration: none;
    color: white;
-   padding: 1.5rem;
+   padding: 0rem 1.5rem;
    border-radius: 2rem;
-   height: 150px;
+   height: 8rem;
    text-align: center;
    font-size: 1rem;
 }
@@ -155,9 +155,10 @@ h2 {
 }
 
 .mapInfo {
-   display: flex;
-   align-items: center;
-   gap: 15px;
+   display: grid;
+   grid-template-columns: 0.5fr 2fr;
+   gap: 1rem;
+   margin: 0rem 1rem 0rem 1rem;
 }
 
 .mapInfo address {
@@ -169,7 +170,7 @@ h2 {
 /************************/
 
 .bereikbaarheid {
-   margin: 1rem 0 1.5rem 0;
+   margin: 1rem 1rem 1.5rem 1rem;
 }
 
 .bereikbaarheid img {
@@ -214,8 +215,18 @@ h3 {
 
 @media (max-width: 400px) {
    .slideshow button {
-      padding: 0.5rem 1rem;
-      font-size: 0.9rem;
+      padding: 0.5rem 0.6rem;
+   }
+}
+
+@media (min-width: 600px) {
+   .slideshow {
+      margin: 0 auto 1.5rem auto;
+      position: relative;
+   }
+
+   .slideshow img {
+      border-radius: 2rem;
    }
 }
 
@@ -241,13 +252,7 @@ h3 {
    }
 
    .slideshow {
-      margin: 0 auto 1.5rem auto;
-      position: relative;
       overflow: visible;
-   }
-
-   .slideshow img {
-      border-radius: 2rem;
    }
 
    .slideshow button {
@@ -287,7 +292,7 @@ h3 {
    }
 
    .map iframe {
-      border-radius: 3rem;
+      border-radius: 2rem;
    }
 
    h2 {

@@ -6,7 +6,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1rem;
+   padding: 1rem 0rem;
    position: fixed;
    top: 0;
    left: 0;
@@ -20,6 +20,7 @@ header {
    height: 40px;
    position: relative;
    z-index: 3;
+   padding: 0rem 1rem;
 }
 
 .hamburgerBtn {
@@ -28,13 +29,6 @@ header {
    border: none;
    cursor: pointer;
    z-index: 3;
-   transition: all 0.3s ease-in-out;
-   margin-right: 25px;
-   transform-origin: center;
-}
-
-.hamburgerBtn.rotate {
-   transform: rotate(90deg);
 }
 
 .menu {
@@ -90,6 +84,12 @@ header {
 }
 
 /**** RESPONSIVE ****/
+
+@media (min-width: 500px) {
+   .logo img {
+      transform: scale(1.2);
+  }
+}
 
 @media (min-width: 800px) {
    .hamburgerBtn {
