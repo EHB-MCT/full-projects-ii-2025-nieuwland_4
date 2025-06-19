@@ -181,3 +181,14 @@ h2 {
       font-size: 1.2rem;
    }
 }
+
+@media (min-width: 1200px) {
+   h1 {
+      padding-top: 4rem;
+      font-size: 1.7rem;
+   }
+
+   .klassen {
+      padding-bottom: 2.5rem;
+   }
+}

@@ -218,4 +218,29 @@ h1 {
    .stap2 img {
       padding-top: 1rem;
    }
+
+   h1 {
+      padding-top: 3rem;
+      font-size: 1.7rem;
+   }
+
+   .infoT {
+      font-size: 1.3rem;
+   }
+
+   .inschrijvingTekst {
+      font-size: 1rem;
+   }
+
+   .infomomenten {
+      margin-bottom: 1.5rem;
+   }
+
+   .infomomenten li {
+      font-size: 1rem;
+   }
+
+   .infobron ul {
+      padding: 1rem;
+   }
 }

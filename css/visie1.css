@@ -36,12 +36,14 @@ h2 {
    color: #222563;
    font-size: 1.1rem;
    margin-top: 1rem;
+   padding-bottom: 1rem;
 }
 
 p {
    color: #222563;
    font-size: 1rem;
    margin-bottom: 1rem;
+   line-height: 1.5;
 }
 
 /*** RESPONSIVE ***/
@@ -121,4 +123,5 @@ p {
    .banner h1 {
       font-size: 1.8rem;
       padding: 1rem;
-   }}
+   }
+}

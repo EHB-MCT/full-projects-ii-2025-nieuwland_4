@@ -97,7 +97,6 @@ form label {
    color: var(--titleColor);
    font-size: 0.8rem;
    display: block;
-
 }
 
 form p {
@@ -220,5 +219,16 @@ form button:hover {
 
    .form-tekst {
       padding-top: 10rem;
+   }
+}
+
+@media (min-width: 1200px) {
+   h1 {
+      padding-top: 3rem;
+      font-size: 1.7rem;
+   }
+
+   form label {
+      font-size: 1rem;
    }
 }
