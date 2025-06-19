@@ -162,6 +162,8 @@ h1 {
    padding: 1rem;
 }
 
+/*** RESPONSIVE ***/
+
 
 @media (min-width: 800px) {
    .inschrijving {

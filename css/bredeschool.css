@@ -1,0 +1,39 @@
+@import "reset.css";
+@import "general.css";
+@import "nav.css";
+@import "footer.css";
+
+h1 {
+   text-align: center;
+   margin-top: 90px;
+   padding: 1rem;
+   padding-bottom: 1.5rem;
+   color: var(--titleColor);
+   font-size: 1.3rem;
+}
+
+video {
+   margin-bottom: 2rem;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 800px) {
+   h1 {
+      padding: 2rem 0rem;
+      font-size: 1.5rem;
+   }
+}
+
+@media (min-width: 1000px) {
+   h1 {
+      padding: 3rem 0rem;
+      font-size: 1.7rem;
+   }
+
+   video {
+      width: 75%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+   }
+}
