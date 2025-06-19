@@ -215,10 +215,6 @@ h1 {
 }
 
 @media (min-width: 1200px) {
-   .stap2 img {
-      padding-top: 1rem;
-   }
-
    h1 {
       padding-top: 3rem;
       font-size: 1.7rem;
