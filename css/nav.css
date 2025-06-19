@@ -92,7 +92,8 @@ header {
 @media (min-width: 500px) {
    .logo img {
       transform: scale(1.2);
-  }
+      margin: 0rem 1rem;
+   }
 }
 
 @media (min-width: 800px) {
@@ -109,8 +110,7 @@ header {
       justify-content: flex-end;
       background: none;
       box-shadow: none;
-      padding-right: 30px;
-      padding-bottom: 1rem;
+      padding-right: 1rem;
    }
 
    .menu ul {
@@ -124,15 +124,16 @@ header {
    }
 
    .menu a {
-      font-size: 1rem;
+      font-size: 0.8rem;
       color: #222563;
       text-decoration: none;
+      padding: 0;
    }
 
-   .logo-img {
-      content: url('../img/logonieuwland.png');
-      transform: scale(1.8);
-      transform-origin: left center;
+   .logo img {
+      transform: scale(1.5);
+      padding: 0rem 2rem;
+         margin: 0rem 1rem;
    }
 
 }

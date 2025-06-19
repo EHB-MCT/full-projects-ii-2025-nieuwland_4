@@ -64,6 +64,10 @@
    height: auto;
 }
 
+.quicklink2 img {
+   transform: scale(0.9);
+}
+
 .quicklink1 {
    background-color: var(--red);
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -205,7 +209,7 @@ h3 {
 
 .bereikbaarheid p {
    margin: 10px;
-   margin-left: 30px;
+   margin-left: 2.5rem;
    color: var(--titleColor);
 }
 
@@ -244,11 +248,13 @@ h3 {
    }
 
    .quicklink a {
-      font-size: 1.5rem;
+      font-size: 1rem;
+      padding-top: 0.5rem;
    }
 
    .quicklink a img {
-      width: 55px;
+      width: 3rem;
+      padding-bottom: 0.5rem;
    }
 
    .slideshow {
@@ -278,6 +284,10 @@ h3 {
       gap: 1rem;
       justify-content: center;
       align-items: flex-start;
+   }
+
+   .mapInfo {
+      grid-template-columns: 0fr 2fr;
    }
 
    .map,
@@ -320,6 +330,16 @@ h3 {
    .quicklink {
       margin-left: 10%;
       margin-right: 10%;
+   }
+
+   .quicklink a {
+      font-size: 1.3rem;
+      padding-top: 1.5rem;
+   }
+
+   .quicklink a img {
+      width: 4rem;
+      padding-bottom: 1.5rem;
    }
 }
 

@@ -117,11 +117,12 @@ footer {
 @media (min-width: 800px) {
    footer {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: space-between;
       align-items: flex-start;
-      padding: 2rem;
-      gap: 2rem;
+      padding-left: 0;
+      padding-right: 0;
+      gap: 1rem;
    }
 
    .footerContact,
@@ -147,7 +148,7 @@ footer {
    }
 
    .footerLogo img {
-      width: 250px;
+      width: 200px;
       padding-left: 0;
    }
 
@@ -158,5 +159,24 @@ footer {
 
    .footerSocial {
       margin-top: 5rem;
+   }
+
+   .contactLine {
+      padding-bottom: 0.5rem;
+   }
+}
+
+@media (min-width: 1000px) {
+   footer {
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
+}
+
+@media (min-width: 1200px) {
+   footer {
+      padding-left: 8rem;
+      padding-right: 8rem;
+      padding-top: 2rem;
    }
 }
